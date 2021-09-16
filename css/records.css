@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.layoutForRecords{
+    justify-content: center;
+}
+
+table, td, th {    
+    border: 2px double black;
+    background-color: rgb(174, 229, 253);
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+th, td {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.descriptionOfTheHighscoreTable{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    margin-bottom: 20px;
+}
+
+.buttonsOfRecords{
+    display: flex;
+    flex-wrap: space-around;
+    margin-top: 10px;
+}
+
+.buttonInHighscores{
+    width: 350px;
+    height: 50px;
+}

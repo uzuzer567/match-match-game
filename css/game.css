@@ -1,0 +1,141 @@
+.layoutForGame{
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 100px;
+    height: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+img{
+	width: 100px;
+	height: 70px;
+	border-radius: 5px;
+}
+
+.containerForScore,
+.containerForTimer{
+	display: flex;
+	margin: auto;
+}
+
+#popupText,
+.containerForScoreCounter,
+.containerForScoreTitle,
+.containerForTimerCounter,
+.containerForTimerTitle{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.popupButtons{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 570px;
+    height: 50px;  
+    outline: none;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: rgb(174, 229, 253);
+    box-shadow: 0 0 25px black;
+    margin-top: 10px;
+    margin-left: 310px;
+    cursor: pointer;
+}
+
+.popupButtons:hover{
+    transform: scale(1.05);
+}
+
+.clicked{
+    animation-name: flipInY;
+    animation-duration: 1s;
+}
+
+.unmatched{
+	animation-name: pulseRed;
+	animation-duration: 1s;
+}
+
+.matched{
+	animation-name: pulseGreen;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes flipInY {
+	from {
+		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+	}
+
+	to {
+		transform: perspective(400px);
+	}
+}
+
+@keyframes pulseRed {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		transform: scale3d(1.2, 1.2, 1.2);
+		box-shadow: 0 0 25px red;
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+		box-shadow: 0 0 25px transparent;
+	}
+}
+
+@keyframes pulseGreen {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		transform: scale3d(1.2, 1.2, 1.2);
+		box-shadow: 0 0 25px green;
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+		box-shadow: 0 0 25px transparent;
+	}
+}

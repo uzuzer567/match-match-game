@@ -1,0 +1,21 @@
+@import "../css/reset.css";
+@import "../css/menu.css" screen;
+@import "../css/notifications.css" screen;
+@import "../css/registration.css" screen;
+@import "../css/records.css" screen;
+@import "../css/settings.css" screen;
+@import "../css/game.css" screen;
+@import "../css/about.css" screen;
+
+.background{
+    background-image: url("../assets/main_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -80px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

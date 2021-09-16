@@ -1,0 +1,77 @@
+.containerForDiff{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 70px;
+}
+
+.buttonForDiff{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    font-weight: 800;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(174, 229, 253);
+    border: 2px solid #000000;
+    box-shadow: 0 0 25px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.activeDiff,
+.buttonForDiff:hover,
+.shirt:hover{
+    transform: scale(1.1);
+}
+
+.containerForShirts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.activeShirt{
+    width: 150px;
+    height: 150px;
+    transform: scale(1.1);
+}
+
+.shirt{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
+    cursor: pointer;
+}
+
+#resetRecordsButton,
+#stopButton,
+#okayButton{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 570px;
+    height: 50px;  
+    outline: none;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: rgb(174, 229, 253);
+    box-shadow: 0 0 25px black;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+#resetRecordsButton:hover,
+#stopButton:hover,
+#okayButton:hover{
+    transform: scale(1.05);
+}

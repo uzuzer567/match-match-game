@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.aboutGameTitle{
+    width: 1200px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.aboutGame{
+    width: 1200px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,44 @@
+.alert{
+    width: 1175px;
+    height: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.alertWithCongratulations{
+    width: 1175px;
+    height: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.openRecordsButton{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+    width: 50px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: rgb(174, 229, 253);
+    border: 2px solid black;
+    box-shadow: 0 0 25px black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}

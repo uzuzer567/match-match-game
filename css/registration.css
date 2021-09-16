@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.navigation{
+    width: 1200px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 60px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+#mainPageButton{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.07px black;
+    text-shadow: 0 0 15px black;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#registrationButtonSettings,
+#registrationButtonAboutGame,
+#settingsButtonGame{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.07px black;
+    text-shadow: 0 0 15px black;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#registrationButtonRegistration,
+#settingsButtonSettings,
+#startGameButtonGame{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    -webkit-text-stroke: 0.07px black;
+    text-shadow: 0 0 15px black;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#mainPageButton:hover,
+#registrationButtonRegistration:hover,
+#registrationButtonSettings:hover,
+#settingsButtonSettings:hover,
+#settingsButtonGame:hover,
+#startGameButtonGame:hover{
+    text-shadow: 0 0 15px rgb(174, 229, 253);
+}
+
+#settingsButtonRegistration,
+#startGameButtonRegistration,
+#startGameButtonSettings{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: gray;
+    -webkit-text-stroke: 0.07px black;
+    text-shadow: 0 0 15px black;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#peopleImage{
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#peopleImageInHeader{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#load{
+    margin-top: 10px;
+}
+
+.communications{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(174, 229, 253);
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: 0 0 15px black;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 550px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.communicationsButtonsContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.communicationsButtons{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 570px;
+    height: 50px;  
+    outline: none;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: rgb(174, 229, 253);
+    box-shadow: 0 0 25px black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.communicationsButtons:hover{
+    transform: scale(1.05);
+}
+
